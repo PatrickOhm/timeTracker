@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(59, 134, 143, 1);
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: radial-gradient(50% 50% at 50% 50%, #B7F7FF 0%, #90F3FF 100%);
+    
+}
+
+#Headline {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(59, 134, 143, 1);
+    margin-top: 25px;
+}
+
+.btn {
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1AD8F9;
+    color: white;
+}
+
+#deco-line {
+    height: 1px;
+    width: 80%;
+    background: rgba(223, 253, 255, 1);
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.centered-card {
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    margin: auto;
+    margin-top: 18px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 14px;
+}
+
+.meta {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.timer-display {
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 22px;
+}
+
+.icons {
+    float: right;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+.icon {
+    width: 16px;
+    cursor: pointer;
+}
+
+.icon-edit {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.start-btn {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.1);    
+    background: rgba(118, 237, 252, 1);
+    color: white;
+}
+
+
+
+/* editable Timer */
+
+
+
+.editable-timer {
+    height: 240px;
+}
+
+label {
+    margin-top: 12px;
+    margin-left: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+input:focus {
+    outline: none;
+}
+
+.timer-edit-input {
+    display: block;
+    width: 372px;
+
+    border: none;
+    padding: 10px;
+    margin-left: 14px;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.update-cancel-btn {
+    display: flex;
+}
+
+.update-cancel {
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: white;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(118, 237, 252, 1);
+    color: white;
+}
+
+.cancel {
+    right: 0;
+    border-radius: 0 0 8px 0;
+}
+
+.update {
+    border-radius: 0 0 0 8px;
+}
+
+.create-new-btn {
+    background: white;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.create-new-btn:hover {
+    background-color: #1AD8F9;
+}
+
+#horizontal {
+    background-color:rgba(118, 237, 252, 1);
+    width: 42px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.1s linear;
+}
+
+#vertical {
+    background-color: rgba(118, 237, 252, 1);
+    height: 42px;
+    width: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.1s linear;
+}
+
+.create-new-btn:hover #horizontal {
+    background-color: white;
+}
+
+.create-new-btn:hover #vertical {
+    background-color: white;
+}
+
+.placeholder {
+    height: 100px;
+    
+}
+
+
+
+
